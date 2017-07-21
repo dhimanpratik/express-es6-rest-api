@@ -13,4 +13,4 @@ before_install:
 install:
     - npm install
 script:
-    - 
+    - PORT=8080 npm start
